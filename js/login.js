@@ -29,6 +29,6 @@ loginBtn.addEventListener('click', async function (e) {
         return alert(msg)
     } else {
         alert('登录成功')
-        location.href = '/index.html'
+        location.href = '/chatbot/index.html'
     }
 })
