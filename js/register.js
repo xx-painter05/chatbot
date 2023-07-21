@@ -43,6 +43,6 @@ $('.user-form').addEventListener('submit', async e => {
     const { code, msg } = await API.register(Object.fromEntries(form.entries()))
     if (code) return alert(msg)
     if (this.confirm('注册成功，点击确定前往登录页！')) {
-        window.location.href = 'login.html'
+        window.location.href = '/chatbot/login.html'
     }
 })

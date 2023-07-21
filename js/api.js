@@ -18,7 +18,7 @@ const API = (function () {
         }
         // 未登录 并且不在白名单内 需要跳转到登录页
         if (res.code === 401 && !whiteList.includes(location.pathname)) {
-            window.location.href = '/login.html'
+            window.location.href = '/chatbot/login.html'
             return alert('登录过期，请重新登录')
         }
         return res

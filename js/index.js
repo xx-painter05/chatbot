@@ -26,7 +26,7 @@ $('.msg-container').addEventListener('submit', async function(e) {
 
 $('.close').addEventListener("click", function () {
     removeItem('token')
-    window.location.href = '/login.html'
+    window.location.href = '/chatbot/login.html'
 })
 
 function renderMsg(type = 0, msg, createdAt) {
